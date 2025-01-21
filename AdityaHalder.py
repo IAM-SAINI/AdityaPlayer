@@ -1051,10 +1051,7 @@ async def stream_audio_or_video(client, message):
             requested_by = "[" + user.title + "](https://t.me/" + user.username + ")"
         else:
             requested_by = user.title
-     buttons = InlineKeyboardMarkup(
-        [
-            [
-                    InlineKeyboardButton(
+     buttons = InlineKeyboardButton(
                         text="🌺ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ🌺",
                         url=f"https://t.me/{bot.me.username}?startgroup=true",
                     )
