@@ -1038,7 +1038,8 @@ async def stream_audio_or_video(client, message):
     buttons = InlineKeyboardMarkup(
         [
             [
-                text="🌺ᴏᴡɴᴇʀ🌺",
+               InlineKeyboardButton(
+                        text="🌺ᴏᴡɴᴇʀ🌺",
                         url=f"https://t.me/cute_boy91"),
                     InlineKeyboardButton(
                         text="๏ ᴜᴘᴅᴀᴛᴇ ๏",
