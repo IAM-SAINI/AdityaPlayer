@@ -862,12 +862,8 @@ async def change_stream(chat_id):
     buttons = InlineKeyboardMarkup(
         [
              [
-                InlineKeyboardButton(
-                        text="🌺ᴏᴡɴᴇʀ🌺",
-                        url=f"https://t.me/cute_boy91"),
-                    InlineKeyboardButton(
-                        text="๏ ᴜᴘᴅᴀᴛᴇ ๏",
-                        url=f"https://t.me/quizbys",)
+                InlineKeyboardButton (text="🌺ᴏᴡɴᴇʀ🌺",url=f"https://t.me/cute_boy91"),
+                InlineKeyboardButton (text="๏ ᴜᴘᴅᴀᴛᴇ ๏",url=f"https://t.me/quizbys"),
                  ],
             [
                 InlineKeyboardButton(
